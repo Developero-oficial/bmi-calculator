@@ -1,6 +1,6 @@
 describe('bmi calculator', () => {
   it('calculate Thinness result', () => {
-    cy.visit('http://localhost:3000/')
+    cy.visit('/')
 
     // Busca el input con etiqueta "height (KG)" y escribe el valor "1.7".
     cy.get('#height').type('1.7')
